@@ -379,6 +379,11 @@ ul { list-style: none; }
 }
 
 /* Technical wireframe shadow */
+@keyframes dataScroll {
+  from { transform: translate(0, 0); }
+  to { transform: translate(10px, 10px); }
+}
+
 .hero-image::before {
   content: '';
   position: absolute;
@@ -398,12 +403,8 @@ ul { list-style: none; }
     rgba(212, 97, 58, 0.15) 20px
   );
   background-size: 28px 28px;
-  animation: dataScroll 3s linear infinite;
-}
-
-@keyframes dataScroll {
-  from { background-position: 0 0; }
-  to { background-position: 28px 28px; }
+  will-change: transform;
+  animation: dataScroll 10s linear infinite; /* hardware accelerated slow pan */
 }
 
 .hero-image:hover::before {
@@ -1426,9 +1427,7 @@ ul { list-style: none; }
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: rgba(9, 9, 11, 0.85); /* var(--bg) with opacity */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(9, 9, 11, 0.95); /* var(--bg) with higher opacity to replace blur */
   display: flex;
   align-items: center;
   justify-content: center;
