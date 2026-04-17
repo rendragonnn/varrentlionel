@@ -32,9 +32,8 @@ A personal portfolio built with React and Vite, featuring a technical-brutalist 
 Let's collaborate or talk data!
 
 - **LinkedIn**: [Varrent Lionel](https://linkedin.com/in/varrentlionel/)
-- **GitHub**: [@rendragonnn](https://github.com/rendragonnn)
-- **WhatsApp**: [+62 858 1025 6707](https://wa.me/6285810256707)
+- **Email**: [varrentlionel@gmail.com](mailto:varrentlionel@gmail.com)
 
 ---
 
-Copyright © 2024 Varrent Lionel.
+Copyright © 2026 Varrent Lionel.
