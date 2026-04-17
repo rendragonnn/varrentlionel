@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#0a192f" rx="15"/>
+  <text x="50" y="50" font-family="Poppins, sans-serif" font-size="40" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <tspan fill="#ffffff">V</tspan>
+    <tspan fill="#64ffda">L.</tspan>
+  </text>
+</svg>
